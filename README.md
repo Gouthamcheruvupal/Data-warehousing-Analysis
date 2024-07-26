@@ -2,24 +2,26 @@ Here is a step-by-step project outline for "Data Warehousing & Analysis on SQL: 
 
 Step 1: Understanding the Project
 Objective:
+1.Design a schema and relational data model for HR data.
+2.Insert employee data into the database.
+3.Conduct exploratory data analysis (EDA) on SQL to analyze attrition patterns.
 
-Design a schema and relational data model for HR data.
-Insert employee data into the database.
-Conduct exploratory data analysis (EDA) on SQL to analyze attrition patterns.
 Key Learnings:
-
 Cardinality
 Databases
 Schema enforcement
 SQL commands (stored procedures, views, CTEs)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Step 2: Setting Up the Environment
 Tools:
-
 SQL Server (or any other RDBMS like MySQL, PostgreSQL)
 SQL Client (SQL Server Management Studio, DBeaver, etc.)
 Step 3: Designing the Schema
-Tables to be created:
 
+Tables to be created:
 Employees: Basic information about employees.
 Departments: Information about various departments.
 Job_Roles: Details about job roles.
