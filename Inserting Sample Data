@@ -1,0 +1,23 @@
+#Departments:
+INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
+(1, 'HR'),
+(2, 'Engineering'),
+(3, 'Sales');
+
+#Job Roles:
+INSERT INTO Job_Roles (JobRoleID, JobRoleName) VALUES
+(1, 'Manager'),
+(2, 'Engineer'),
+(3, 'Sales Executive');
+
+#Employees:
+INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID, JobRoleID, DateOfJoining, DateOfBirth, Gender, Salary) VALUES
+(1, 'John', 'Doe', 2, 2, '2020-01-15', '1990-05-10', 'Male', 60000),
+(2, 'Jane', 'Smith', 1, 1, '2019-03-22', '1985-07-24', 'Female', 75000),
+(3, 'Alice', 'Johnson', 3, 3, '2021-06-10', '1992-11-05', 'Female', 55000);
+
+#Employee Attrition:
+INSERT INTO Employee_Attrition (AttritionID, EmployeeID, AttritionDate, AttritionReason) VALUES
+(1, 1, '2023-02-01', 'Personal Reasons'),
+(2, 2, '2022-12-15', 'Better Opportunity');
+
